@@ -1,0 +1,10 @@
+Number of memory locations you want to allocate: 2
+111 8000000001
+112 8000000002
+You should now enter the instructions
+08a 0111105112
+08b 0111107112
+08c 0000000000
+
+Note:1)'0000000000' is used for HALT operation
+     2)Address 0x000 is used for start operation.Hence this Address should not be used for any other pursposes!

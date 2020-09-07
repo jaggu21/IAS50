@@ -1,0 +1,22 @@
+3
+051 8000000002
+052 0000000003
+054 0000000004
+
+07A 0305405051
+07C 2105301053
+07D 0B05221055
+07E 0000000000
+
+/*Equivalent program in C*/
+int modulus(int a){
+  if(a>=0){return a;}
+  return -1*a; 
+}
+
+int main(){
+  int a=-2,b=4,c=3,d,e; 
+  d = modulus(a)+b; 
+  e = d*c; 
+  return 0; 
+}
