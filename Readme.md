@@ -2,9 +2,9 @@
 
 ## Running Instructions:
   * _Open terminal in current folder_
-  * _Run '<python3 IAS.py>'_
+  * _Run_ python3 IAS.py
   * _Sample Input has been given in **SampleInput** folder._
-    * In order to test with different inputs,update the path **f = open("./SampleInputs/1.txt",'r')**(_line 82 of IAS.py file_).
+    * In order to test with different inputs,update the path **f = open("./SampleInputs/1.txt",'r')**  (_line 82 of IAS.py file_).
     ```
     eg: f = open("./SampleInputs/2.txt","r") 
     ```
@@ -15,7 +15,7 @@
 ## Important Notes
   * _Input must be in Hexadecimal format without mention of 0x at begining._   
       ```
-      eg: ~~0x08A 0x0111105112~~ is incorrect.
+      eg: 0x08A 0x0111105112 is incorrect.
           08A 0111105112 is correct.
       ```
 
